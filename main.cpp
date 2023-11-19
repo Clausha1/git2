@@ -8,7 +8,8 @@ using namespace std;
 
 int main()
 {
-  int a, b, c;
+  float a, b;
+  int c;
   bool isend = 0;
   cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
   do
@@ -23,7 +24,7 @@ int main()
         cout << "Enter second number\n";
         cin >> b;
         cout << "Result: " << addition(a, b);
-        cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
+        cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
     case 2:
@@ -33,7 +34,7 @@ int main()
         cout << "Enter second number\n";
         cin >> b;
         cout << "Result: " << subtraction(a, b);
-        cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
+        cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
     case 3:
@@ -52,7 +53,14 @@ int main()
         cin >> a;
         cout << "Enter second number\n";
         cin >> b;
+        if (b==0)
+          {
+            cout << "cannot devide by 0";
+          }
+        else
+            {
         cout << "Result of division: " << devision(a, b);
+          }
         cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
@@ -64,6 +72,7 @@ int main()
      default:
       {
         cout <<"Unknown command, please rewrite\n";
+        cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       }
     }
