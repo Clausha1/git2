@@ -38,12 +38,22 @@ int main()
       };
     case 3:
       {
-        cout << "Feature in development!\n";
+        cout << "Enter first number\n";
+        cin >> a;
+        cout << "Enter second number\n";
+        cin >> b;
+        cout << "Result of multiplication: " << multiplication(a, b);
+        cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
     case 4:
       {
-        cout << "Feature in development!\n";
+        cout << "Enter first number\n";
+        cin >> a;
+        cout << "Enter second number\n";
+        cin >> b;
+        cout << "Result of division: " << devision(a, b);
+        cout << "\nChoose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
      case 5:
