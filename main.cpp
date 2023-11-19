@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  int c;
+  int a, b, c;
   bool isend = 0;
   cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
   do
@@ -16,12 +16,22 @@ int main()
     {
     case 1:
       {
-        cout << "Feature in development!\n";
+        cout << "Enter first number\n";
+        cin >> a;
+        cout << "Enter second number\n";
+        cin >> b;
+        cout << "Result: " << addition(a, b);
+        cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
     case 2:
       {
-        cout << "Feature in development!\n";
+        cout << "Enter first number\n";
+        cin >> a;
+        cout << "Enter second number\n";
+        cin >> b;
+        cout << "Result: " << subtraction(a, b);
+        cout << "Choose the operation:\n1. addition\n2. subtraction\n3. multiplication\n4.division\n5. exit\n";
         break;
       };
     case 3:
