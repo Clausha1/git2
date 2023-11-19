@@ -1,5 +1,5 @@
 #ifndef MULTIPLICATION
 #define MULTIPLICATION
-int multiplication(int a, int b)
+float multiplication(float a, float b);
 #endif // MULTIPLICATION
 
