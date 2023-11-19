@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdbool.h>
+#include <addition.h>
+#include <subtraction.h>
 using namespace std;
 
 int main()
