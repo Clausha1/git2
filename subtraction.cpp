@@ -1,4 +1,4 @@
 #include <subtraction.h>
-int subtraction (int a, int b) {
+float subtraction (float a, float b) {
     return a-b;
 }
