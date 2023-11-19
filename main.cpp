@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <addition.h>
 #include <subtraction.h>
+#include <multiplication.h>
+#include <devision.h>
 using namespace std;
 
 int main()
