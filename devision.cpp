@@ -1,4 +1,4 @@
 #include <devision.h>
-int devision(int a, int b) {
+float devision(float a, float b) {
     return a/b;
 }

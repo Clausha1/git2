@@ -1,5 +1,5 @@
 #ifndef SUBTRACTION
 #define SUBTRACTION
-int subtraction (int a, int b);
+float subtraction (float a, float b);
 #endif // SUBTRACTION
 
