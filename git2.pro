@@ -5,12 +5,16 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     addition.cpp \
-    subtraction.cpp
+    subtraction.cpp \
+    multiplication.cpp \
+    devision.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
 
 HEADERS += \
     addition.h \
-    subtraction.h
+    subtraction.h \
+    multiplication.h \
+    devision.h
 
